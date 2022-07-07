@@ -41,7 +41,8 @@ h3 {
 
 .navbtn {
   position: relative;
-  left: 20%;
+  width: 50%;
+  left: 48%;
   top: -20%;
 }
 
@@ -53,13 +54,13 @@ h3 {
   right: 30%;
 }
 
-.cloud-right {
+.bubble-right {
   width: 10%;
   position: absolute;
   right: 17%;
   top: 12%;
 }
-.cloud-left {
+.bubble-left {
   width: 10%;
   position: absolute;
   left: 14%;
@@ -85,7 +86,7 @@ h3 {
   top: 62%;
 }
 
-.mountain {
+.turtle {
   width: 20%;
   margin-top: 10%;
 }
