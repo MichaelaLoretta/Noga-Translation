@@ -64,6 +64,26 @@ h3 {
   left: 14%;
   top: 30%;
 }
+.smallbubble-left {
+  width: 2%;
+  position: absolute;
+  left: 38%;
+  top: 56%;
+}
+
+.smallbubble-right {
+  width: 3%;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+.minibubble {
+  width: 1%;
+  position: absolute;
+  left: 40%;
+  top: 62%;
+}
+
 .mountain {
   width: 20%;
   margin-top: 10%;
