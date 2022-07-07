@@ -1,10 +1,10 @@
 body {
-  margin: 0;
+  margin: 0 auto 0 auto;
   text-align: center;
   font-family: "Merriweather", serif;
 }
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 2% auto 0 auto;
   font-size: 5.625rem;
   font-family: "Clicker Script", cursive;
   font-weight: normal;
@@ -17,13 +17,12 @@ h3 {
   font-size: 1.5rem;
   color: #b5cda3;
   font-weight: normal;
-  margin-bottom: rem;
 }
 .breakline {
   border: dotted;
   border-width: 0.5rem 0 0 0;
   width: 5%;
-  color: #c1ac95;
+  color: #b5cda3;
 }
 
 .topContainer {
@@ -34,6 +33,7 @@ h3 {
 .navbar {
   background-color: #fafafa;
   height: 6rem;
+  width: 100%;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -41,15 +41,16 @@ h3 {
 
 .navbtn {
   position: relative;
-  left: 30%;
-  top: 40%;
+  left: 20%;
+  top: -20%;
 }
+
 .smallpic {
   border-radius: 100%;
   width: 50px;
-  position: absolute;
-  top: 15%;
-  left: 2%;
+  position: relative;
+  top: 30%;
+  right: 30%;
 }
 
 .cloud-right {
@@ -123,7 +124,6 @@ h3 {
 
 .bottomContainer {
   background-color: #fafafa;
-  position: absolute;
   width: 100%;
   margin-top: 5%;
   padding-top: 3%;
